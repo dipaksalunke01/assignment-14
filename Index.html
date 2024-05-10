@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+        .movie{
+          text-align: center;
+          font-family:'Times New Roman', Times, serif;
+          font-size:30px;
+          font-weight:bolder;
+        }
+
+        @font-face {
+          font-family: "ds";
+          src: url("./ChrustyRock-ORLA.ttf");
+        }
+
+        .poster{
+          height: 200px;
+          margin-left: 20px;
+          border-radius: 10px;
+          box-shadow: 2px 2px 10px 5px black ;
+        }
+        .poster:hover{
+          box-shadow: 2px 2px 10px 5px tomato ;
+
+        }
+        .box{
+          border: 3px solid black;
+          padding: 20px 20px;
+          width: 400px;
+        }
+        .title{
+          font-family: "ds";
+        }
+
+        .title-value{
+          font-family: "Sedan SC", serif;
+          font-weight: 700;
+          font-style: normal;
+
+        }
+    
+
+    </style>
+</head>
+<body>
+  
+    <div class="movie">
+         <p> Movies</p>
+   </div>
+
+      <hr /> 
+
+      <div class="box">
+      <div>
+        <img src="./image/bloodydady.jpeg" class="poster"> <br />
+      </div> <br />
+
+      <div style="margin-left: 20px;">  
+       <span class="title"> Movie Name:</span> 
+       <span class="title-value"> Bloody Dady</span> <br />
+       <span class="title">Release Year:</span>
+       <span class="title-value">2023</span> <br />
+       <span class="title">Actors:</span>
+       <span class="title-value"> Kapur </span> <br />
+       <span class="title"> Director:</span> 
+       <span class="title-value">Ali Abbas Zafar</span> 
+      </div>
+    </div>
+</body>
+</html>
